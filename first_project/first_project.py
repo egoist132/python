@@ -6,3 +6,4 @@ if wsp1 <= 1:
     
 elif wsp1 >= 0:
     print(wsp1/2.54)
+#dasdasd
