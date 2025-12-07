@@ -141,11 +141,38 @@
 #     print
 
 
-a=int(input("месяц"))
+# a=int(input("месяц"))
 
-if a == 2:
-    print("28")
-elif a == 1 or 3 or 5 or 7 or 9 or 11:
-    print(31)
-elif a == 4 or 6 or 8 or 10 or 12:
-    print(30)
+# if a == 2:
+#     print("28")
+# elif a == 1 or 3 or 5 or 7 or 9 or 11:
+#     print(31)
+# elif a == 4 or 6 or 8 or 10 or 12:
+#     print(30)
+
+
+# a, b, c = int(input()), int(input()), input()
+
+# if c == "+":
+#     print(a+b)
+# elif c == "-":
+#     print(a-b)
+# elif c == "*":
+#     print(a*b)
+# elif b == 0 and c == "/":
+#     print("На ноль делить нельзя")
+# elif c == "/":
+#     print(a/b)
+
+
+
+a, b= str(input()), str(input())
+
+if a == "синий" and b == "красный" or a == "красный" and b == "синий":
+    print("фиолетовый")
+elif a == "синий" and b == "желтый" or a == "желтый" and b == "синий":
+    print("зеленый")
+elif a == "красный" and b == "желтый" or a == "желтый" and b == "красный":
+    print("оранжевый")
+elif a == "синий" and b == "синий":
+    print("")
